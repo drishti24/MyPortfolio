@@ -1,0 +1,42 @@
+img.ui.medium.left.floated.image{
+    border-radius: 20%;
+    margin:0 25px 0 0;
+}
+
+p.aboutMeText{
+    margin:30px 0 0 0;
+    font-size: 30px;
+    color: white;
+}
+
+span{
+    color: rgb(0, 217, 255);
+}
+
+h1.aboutMeHead{
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 100px;
+    font-size: 60px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+@media only screen and (max-width: 950px) {
+    img.ui.medium.left.floated.image{
+        border-radius: 50%;
+        margin:5% 0 0 0;
+        float: none;
+        margin: auto;
+    }
+    p.aboutMeText{
+        text-align: center;
+        margin:75px 0 0 0;
+        font-size: 35px;
+        color: white;
+    }
+}

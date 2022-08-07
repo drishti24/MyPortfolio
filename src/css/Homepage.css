@@ -1,0 +1,105 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+img.bgImage{
+    opacity: 0.5;
+    max-width: 100%;
+    /*height: auto; */
+    max-width: 100vw;
+    height:auto;
+    width:auto;
+    max-height:100vh;
+}
+div.text{
+    /* text-align: center; */
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.bottom{
+    font-size: 5vh;
+}
+ .desc{
+     font-size: 5vh;
+     color: red;
+     /* margin-bottom: 100px; */
+ }
+
+ h1.name{
+     font-size: 8vh;
+ }
+
+ #landing {
+    background-image: url("../portfoliobg.jpg");
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1;
+}
+
+.landing-text {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.cover-screen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.highlight {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    color:red;
+}
+
+.landing-description {
+    margin-top: 3rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #dfdbdb;
+}
+
+.btn-primary {
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.2s;
+    margin-top: 5rem;
+}
+
+.btn-primary:hover {
+    border-color: white;
+    color: white;
+    background-color: black;
+    transform: scale(1.2);
+}
+ 
+body{
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+@media only screen and (max-width: 700px){
+    div.ui.inverted.borderless.fixed.menu{
+        display: none;
+    }
+}

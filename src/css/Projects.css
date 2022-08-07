@@ -1,0 +1,89 @@
+h1.projectsHead{
+    margin-top: 100px;
+    padding-top: 70px;
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.ui.card{
+    text-align: center;
+    float:left;
+    margin: 20px 0 20px 20px;
+    transition: transform .2s;
+}
+
+div.ui.card:hover{
+  transform: scale(1.1);
+}
+
+
+div.tech{
+  margin-left: 5px;
+  margin-bottom: 5px;
+  /* background-color: red; */
+  color: red;
+  display: inline-block; 
+  padding: 0 3px 3px 3px;
+}
+
+ /* @media only screen and (min-width: 930px){
+    div.carousel.slide{
+        display: none;
+    }
+} */
+
+/*@media only screen and (max-width: 930px) {
+    /* body{
+        background-color: beige;
+    } */ */
+    div.ui.card{
+        display: none;
+    }
+    
+    div.carousel.slide{
+      margin: 30px;
+    }
+    div.carousel-inner{
+      width: 400px;
+      margin: auto;
+    }
+    div.content{
+      text-align: center;
+      color: white;
+    }
+    a.header{
+      font-size:6vh ;
+    }
+    div.description{
+      font-size:3vh ;
+    }
+    div.tech{
+      font-weight: bold;
+      margin-left: 5px;
+      background-color: none;
+      color:red;
+      display: inline;  
+      padding: 0 3px 3px 3px;
+      font-size: 5vh;
+    }
+    div.extra{
+      font-size: 5vh;
+    }
+    div.giticon{
+      display: inline-block;
+      background-color: white;
+    }
+    img.projectimg{
+      width: 100%;
+    }
+
+    span.carousel-control-prev-icon{
+      margin-left: 0vh;
+    }
+
+    span.carousel-control-next-icon{
+      margin-right: 0vh;
+    }
+

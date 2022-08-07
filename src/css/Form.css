@@ -1,0 +1,84 @@
+.textArea{
+    margin: 0 25% 0 25%;
+}
+
+label{
+    color: red;
+}
+
+.button{
+    text-align: center;
+}
+
+.submitButton {
+    background-color:rgb(202, 201, 201);
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.ui.right.labeled.button{
+    text-align: center;
+}
+
+button.ui.icon.button{
+    background-color: rgb(202, 201, 201);
+    color: rgb(0, 0, 0);
+}
+
+button.ui.icon.button:hover{
+    color: rgb(67, 184, 67);
+    background-color: gray;
+}
+
+i.paper.plane.icon{
+    color: rgb(73, 184, 218);
+}
+
+h1.GIT{
+    text-align: center;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    
+}
+
+h2{
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(162, 234, 247);
+    font-size: 6vh;
+}
+
+p.GIT{
+    margin: 20px 0 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+div.field{
+    font-size: 20px;
+    color: white;
+}
+
+div.inputstyle{
+    margin: 5px 0 0 0;
+}
+
+div.footer{
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+}
+
+i.github.icon{
+    color: black;
+    width: 100px;
+}
+
+
+i.linkedin.icon{
+    color:  #2867B2;
+    width: 100px;
+}
